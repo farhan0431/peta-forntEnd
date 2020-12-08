@@ -18,7 +18,7 @@
 <body>
     
     <div id="search-layout">
-        <img class="logo" src="./assets/images/icon.png" alt="">
+        <img class="logo" src="./assets/images/logo-sidenreng.png" alt="">
         <!-- <div class="form-group">
             <input type="text" class="search-form" placeholder="Cari lokasi, bangunan dan lain-lain">
         </div> -->
@@ -33,11 +33,45 @@
                 <a class="dropdown-item" href="#">Separated link</a>
                 </div>
             </div>
-            <input type="text" class="form-control " aria-label="Text input with dropdown button" placeholder="Cari lokasi, bangunan dan lain-lain">
+            <input type="text" class="form-control input-form" aria-label="Text input with dropdown button" placeholder="Cari lokasi, bangunan dan lain-lain">
         </div>
     </div>
-    <div class="map-menu">
+    <div class="login">
+        <button class="btn login-btn" data-toggle="modal" data-target="#modalLogin">Login</button>
 
+        <!-- Modal -->
+        <div class="modal fade" id="modalLogin" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Masuk Sebagai Admin</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Ingat Saya</label>
+                        </div>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-success">Login</button>
+                </div>
+            </div>
+            </div>
+        </div>
     </div>
     <div class="side-menu" id="draggable">
         <div class="close-view">
@@ -86,59 +120,55 @@
                         </li>
                     </ul>
                 </div>
-                <div class="marker-add">
-                <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Default checkbox
-                                </label>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Default checkbox
-                                </label>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Default checkbox
-                                </label>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Default checkbox
-                                </label>
-                            </div>
-                        </li>
-                    </ul>
-                    <div id="colorpicker"></div>
-
-                </div>
             </div>
         </div>
-        
-    </div>
-    <div id="addLayout">
-        <button id="button-add" class="btn btn-success rounded-circle"><i class="fas fa-map-marker-alt"></i><sup><i class="fas fa-plus"></i></sup></button>
-    </div>
-    <div id="undoLayout" class="goRight">
-        <button id="button-undo" class="btn btn-success rounded-circle goRight"><i class="fas fa-undo"></i></button>
-        <button id="button-delete" class="btn btn-danger rounded-circle goRight"><i class="fas fa-trash-alt"></i></button>
     </div>
 
+    <div class="menu-item text-center">
+        
+            <span class="item-up"><i class="fas fa-angle-up"></i></span>
+            
+        <div class="sliders">
+            <ul class="list-menu">
+                <li class="item-menu item-active last-item">
+                    <img class="logo-item-menu" src="https://www.qualitylogoproducts.com/images/_icons/icon_broken_glass.svg" alt="">
+                </li>
+                <li class="item-menu item-active" style="">
+                    <img class="logo-item-menu" src="./assets/images/logo-sidenreng.png" alt="">
+                </li>
+                <li class="item-menu item-active">
+                    <img class="logo-item-menu" src="./assets/images/icon-1.png" alt="">
+                </li>
+                <li class="item-menu item-active">
+                    <img class="logo-item-menu" src="./assets/images/icon.png" alt="">
+                </li>
+                <li class="item-menu item-active">
+                    <img class="logo-item-menu" src="https://img.favpng.com/8/0/21/computer-icons-logo-layers-png-favpng-JDMTQq4bpnvEEfJv7u4eF9FYJ.jpg" alt="">
+                </li>
+                <li class="item-menu item-active">
+                    <img class="logo-item-menu" src="https://cdn3.f-cdn.com/contestentries/982016/21392830/58d2aa69d76d1_thumb900.jpg" alt="">
+                </li>
+                <li class="item-menu item-active">
+                    <img class="logo-item-menu" src="https://img2.pngdownload.id/20180528/pvp/kisspng-logo-signage-clip-art-new-item-5b0c5f7bbffea2.0354918015275375317864.jpg" alt="">
+                </li>
+                <li class="item-menu item-active">
+                    <img class="logo-item-menu" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-vbWG3m09dmW0mdza8Rgpf_nINXBkP-BxsA&usqp=CAU" alt="">
+                </li>
+                <li class="item-menu item-active">
+                    <img class="logo-item-menu" src="https://www.rajagrafindo.co.id/wp-content/uploads/2018/02/wa-logo.png" alt="">
+                </li>
+                <li class="item-menu item-active">
+                    <img class="logo-item-menu" src="https://www.qualitylogoproducts.com/images/_icons/icon_broken_glass.svg" alt="">
+                </li>
+              </ul>
+        </div>
+          <span class="item-down"><i class="fas fa-angle-down"></i></span>
+           
+          
+    </div>
    
 
-    <div id="map"></div>
+   
 
 
     <!-- bootstrap -->
