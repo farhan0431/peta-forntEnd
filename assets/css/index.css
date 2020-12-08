@@ -169,18 +169,19 @@ body {
 
 .sliders {
     height: 420px;
-    border: 1px solid red;
+    
     position: relative;
+    overflow: hidden;
 }
 
 
 .list-menu {
     padding: 0 !important;
     height: 480px;
-    border: 1px solid black;
     box-sizing: border-box;
     position: relative;
     top:-60px;
+    overflow: hidden;
 }
 
 
